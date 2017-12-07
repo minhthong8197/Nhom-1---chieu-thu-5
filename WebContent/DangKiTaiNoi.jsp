@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hướng dẫn thanh toán</title>
+<title>Trung tâm tin học Nhóm 1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
 <meta charset="UTF-8">
 <meta name="description" content="Dịch vụ trung tâm tin học">
 <meta name="keywords" content="Dịch vụ, Trung tâm tin học">
-<meta name="author" content="Nhóm 5">
+<meta name="author" content="Nhóm 1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="index.css" />
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
@@ -22,9 +22,12 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+
+
 </head>
+
 <body>
-<!--phan logo phia tren thanh menu-->
+	<!--phan logo phia tren thanh menu-->
 	<div class="container-fluid" id="thanhlogo"
 		style="background-color: white; color: black; width: 80%; padding: 0px;">
 		<div class="col-md-7 col-sm-8 col-xs-12" style="padding-left: 0px;"
@@ -74,9 +77,11 @@
 					<li class="dropdown"><a class="dropmenu">Chương trình đào
 							tạo</a>
 						<div class="dropdown-content">
-							<a href="DaoTaoDoHoaDaTruyenThong.jsp">Thiết kế đồ họa</a> <a
-								href="#">Thiết kế website</a> <a href="#">Lập trình di động</a>
-							<a href="#">Mạng máy tính</a> <a href="#">Tin học văn phòng</a>
+							<a href="DaoTaoDoHoaDaTruyenThong.jsp">Thiết kế đồ họa</a>
+							<a href="ThietKeWebsite.jsp">Thiết kế website</a>
+							<a href="LapTrinhDiDong.jsp">Lập trình di động</a>
+							<a href="MangMayTinh.jsp">Mạng máy tính</a>
+							<a href="TinHocCoBan.jsp">Tin học văn phòng</a>
 						</div></li>
 					<li class="dropdown"><a class="dropmenu">Dịch vụ</a>
 						<div class="dropdown-content">
@@ -86,7 +91,7 @@
 							<a href="DichVuTuVanQuanLyDuAn.jsp">Tư vấn quản lý dự án</a>
 						</div></li>
 
-					<li><a class="dropmenu">Tin tức</a></li>
+					<li><a href="TinTuc.jsp" class="dropmenu">Tin tức</a></li>
 					<li><a href="HuongDanThanhToan.jsp" class="dropmenu">Hướng
 							dẫn thanh toán</a></li>
 					<li><a href="LienHe.jsp" class="dropmenu">Liên hệ</a></li>
@@ -96,51 +101,21 @@
 			</div>
 		</div>
 	</nav>
-<h3 style="text-align: center;color: #E45D17">Hướng dẫn thanh toán học phí</h3>
+<!--Phần carousel-->
 <div class="container">
-	<p>Để thanh toán học phí khóa học tại Trung Tâm Tin Học – ĐH Khoa Học Tự Nhiên, bạn có thể chọn một trong hai phương thức thanh toán sau:</p>
-	<ol>
-		<li>Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</li>
-		<li>Chuyển Khoản ngân hàng</li>
-	</ol>
-	<b>Phương thức 1: Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</b>
-	<ul>
-		<li>
-			Địa chỉ:
-			<ul>
-				<li>Cơ sở chính: 227 Nguyễn Văn Cừ, Phường 4, Quận 5, TP. HCM</li>
-				<li>Cơ sở 2: 137E Nguyễn Chí Thanh, Phường 9, Quận 5, TP. HCM</li>
-				<li style="list-style-type: none">
-					<div>
-						<img src="img/4.PNG" style="align-content: center" alt="anh minh hoa">
-					</div>
-				</li>
-			</ul>
-		</li>
-		<li>Thời gian làm việc:
-			<ul>
-				<li>Thứ 2 đến Thứ 6 hằng tuần: từ 7g30 đến 19g00</li>
-				<li>Thứ 7 và Chủ nhật hằng tuần: từ 7g30 đến 17g00</li>
-			</ul>
-		</li>
-	</ul>
-	<b>Phương thức 2: Chuyển khoản ngân hàng</b>
-	<p>Bạn có thể đến bất kỳ ngân hàng nào ở Việt Nam (hoặc sử dụng Internet Banking) để chuyển học phí theo thông tin như sau:</p>
-	<img src="img/5.PNG">
-	<b>Lưu ý:</b>
-	<p>Bạn phải viết chính xác 100% tên tài khoản và số tài khoản để đảm bảo học phí được chuyển khoản đến đúng nơi.</p>
-	<ul>
-	<li>Trong khi chuyển khoản, trong phần nội dung, bạn vui lòng điền đầy đủ thông tin: Họ tên học viên (có thể khác với họ tên người chuyển khoản) Số điện thoại liên hệ - Tên khóa học (ngắn gọn) – Mã lớp vào phiếu chuyển tiền.</li>
-	<li>Do có rất nhiều giao dịch chuyển khoản, nên bạn nhớ giữ lại thông tin chuyển khoản và gửi email về tuvan@.edu.vn để Bộ phận Ghi danh chúng tôi tiện đối chiếu và xuất biên lai cho bạn.</li>
-	<li>Trung Tâm luôn kiểm tra các giao dịch chuyển khoản mỗi ngày (từ Thứ 2 đến Thứ 6) và sẽ liên hệ với bạn ngay khi nhận được chuyển khoản của bạn (tối đa khoảng 3 ngày).</li>
-	</ul>
-	<i>Thân mến và hẹn gặp bạn tại khóa học !</i>
-	<br/>
-	
-
+	<img src="img/Dangki1.PNG">	
+</div>
+<div>&nbsp;</div>
+<div style="text-align: center"> <img src="img/Dangki2.PNG"></div>
+<!--Phần thân-->
+<div class="container" style="text-align: center">
+	<div>
+		<h1>Cảm ơn bạn đã đăng kí</h1>
+		<h1>Vui lòng đến tại văn phòng để đăng kí môn học</h1>
+	</div>
 </div>
 <!--Ðoạn footer-->
-	<div class="footer">
+<div class="footer">
 		<div class="container"
 			style="width: 80%; min-height: 50px; background-color: #191919">
 			<div class="col-sm-10">

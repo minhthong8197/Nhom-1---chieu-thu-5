@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Trang chủ</title>
+<title>Trung tâm tin học Nhóm 1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
 <meta charset="UTF-8">
 <meta name="description" content="Dịch vụ trung tâm tin học">
 <meta name="keywords" content="Dịch vụ, Trung tâm tin học">
-<meta name="author" content="Nhóm 5">
+<meta name="author" content="Nhóm 1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -70,19 +70,30 @@
 							class="glyphicon glyphicon-home"></span></a></li>
 					<li class="dropdown"><a class="dropmenu">Lịch khai giảng</a>
 						<div class="dropdown-content">
-							<a href="#">Thiết kế đồ họa</a> <a href="#">Thiết kế website</a>
-							<a href="#">Lập trình di động</a> <a href="#">Mạng máy tính</a> <a
-								href="#">Tin học văn phòng</a>
+							<a href="DangKyLopDoHoaOnline">Thiết kế đồ họa</a> 
+							<a href="DangKyOnlineServlet">Thiết kế website</a>
+							<a href="DangKyLopDiDongOnline">Lập trình di động</a>
+							<a href="DangKyLopNetOnline">Mạng máy tính</a>
+							<a href="DangKiTaiNoi.jsp">Tin học văn phòng</a>
 						</div></li>
 					<li class="dropdown"><a class="dropmenu">Chương trình đào
 							tạo</a>
 						<div class="dropdown-content">
-							<a href="DaoTaoDoHoaDaTruyenThong.jsp">Thiết kế đồ họa</a> <a
-								href="#">Thiết kế website</a> <a href="#">Lập trình di động</a>
-							<a href="#">Mạng máy tính</a> <a href="#">Tin học văn phòng</a>
+							<a href="DaoTaoDoHoaDaTruyenThong.jsp">Thiết kế đồ họa</a>
+							<a href="ThietKeWebsite.jsp">Thiết kế website</a>
+							<a href="LapTrinhDiDong.jsp">Lập trình di động</a>
+							<a href="MangMayTinh.jsp">Mạng máy tính</a>
+							<a href="TinHocCoBan.jsp">Tin học văn phòng</a>
 						</div></li>
-					<li><a href="DichVu.jsp" class="dropmenu">Dịch vụ</a></li>
-					<li><a class="dropmenu">Tin tức</a></li>
+					<li class="dropdown"><a class="dropmenu">Dịch vụ</a>
+						<div class="dropdown-content">
+							<a href="DichVuCungCapThietBiPhanMem.jsp">Cung cấp thiết bị - Phần mềm</a> 
+							<a href="DichVuDaoTaoTheoYeuCauDoanhNghiep.jsp">Đào tạo theo yêu cầu doanh nghiệp</a>
+							<a href="DichVuPhatTrienPhanMem.jsp">Phát triển phần mềm</a>
+							<a href="DichVuTuVanQuanLyDuAn.jsp">Tư vấn quản lý dự án</a>
+						</div></li>
+
+					<li><a href="TinTuc.jsp" class="dropmenu">Tin tức</a></li>
 					<li><a href="HuongDanThanhToan.jsp" class="dropmenu">Hướng
 							dẫn thanh toán</a></li>
 					<li><a href="LienHe.jsp" class="dropmenu">Liên hệ</a></li>

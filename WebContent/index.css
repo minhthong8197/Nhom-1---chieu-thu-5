@@ -105,3 +105,10 @@
 	background-size: cover;
 	backrround-color: aqua;
 }
+
+#formDangki{
+	color: white;
+	border: 1px solid #ffff; padding: 30px 60px;
+	box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+	
+}

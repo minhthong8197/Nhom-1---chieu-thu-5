@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hướng dẫn thanh toán</title>
+<title>Trung tâm tin học Nhóm 1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="index.css" />
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
@@ -22,8 +22,16 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+
+
 </head>
 <body>
+	
+	
+	
+	
+	
+	
 <!--phan logo phia tren thanh menu-->
 	<div class="container-fluid" id="thanhlogo"
 		style="background-color: white; color: black; width: 80%; padding: 0px;">
@@ -96,49 +104,102 @@
 			</div>
 		</div>
 	</nav>
-<h3 style="text-align: center;color: #E45D17">Hướng dẫn thanh toán học phí</h3>
-<div class="container">
-	<p>Để thanh toán học phí khóa học tại Trung Tâm Tin Học – ĐH Khoa Học Tự Nhiên, bạn có thể chọn một trong hai phương thức thanh toán sau:</p>
-	<ol>
-		<li>Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</li>
-		<li>Chuyển Khoản ngân hàng</li>
-	</ol>
-	<b>Phương thức 1: Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</b>
+	
+	
+<!--Thong tin 1-->
+<h3 style="text-align: center;color: #FF8600 ">Phát triển phần mềm theo yêu cầu Cơ quan - Doanh nghiệp</h3>
+<div class="container col-sm-50">
+	<p>Trong bối cảnh kinh tế Việt Nam đang hội nhập với thế giới, một trong những chìa khóa thành công của các cấp, các ngành, các tổ chức, doanh nghiệp là ứng dụng công nghệ thông tin vào các hoạt động quản lý và sản xuất kinh doanh. Phần mềm đóng vai trò quan trọng và là trợ thủ đắc lực mang lại nhiều lợi ích như tiết kiệm thời gian, chi phí, nhân lực, tăng tốc độ xử lý công việc, nâng cao hiệu quả quản lý của tổ chức và năng lực hoạt động của doanh nghiệp… Khi phần mềm đóng gói không thể đáp ứng các yêu cầu chuyên biệt và chi tiết, khi quy trình phần mềm không phù hợp với mô hình quản lý, kinh doanh, việc phát triển các ứng dụng đặc thù cho từng đơn vị trở thành tất yếu.</p>
+	<p>Trung Tâm Tin Học – ĐH KHTN với nguồn nhân lực là giảng viên có nhiều năm kinh nghiệm, liên tục ứng dụng các công nghệ lập trình mới nhất và tiên tiến nhất, đội ngũ lập trình viên nhiều năm kinh nghiệm từng thực hiện nhiều dự án phần mềm lớn do các Sở Ngành, tập đoàn kinh tế lớn, các doanh nghiệp vừa và nhỏ, các tổ chức giáo dục….</p>
+	<p>Chúng tôi không ngừng nghiên cứu và cho ra đời nhiều sản phẩm phần mềm phù hợp với nhu cầu thực tế của từng cơ quan, doanh nghiệp như:</p>
 	<ul>
-		<li>
-			Địa chỉ:
-			<ul>
-				<li>Cơ sở chính: 227 Nguyễn Văn Cừ, Phường 4, Quận 5, TP. HCM</li>
-				<li>Cơ sở 2: 137E Nguyễn Chí Thanh, Phường 9, Quận 5, TP. HCM</li>
-				<li style="list-style-type: none">
-					<div>
-						<img src="img/4.PNG" style="align-content: center" alt="anh minh hoa">
-					</div>
-				</li>
-			</ul>
-		</li>
-		<li>Thời gian làm việc:
-			<ul>
-				<li>Thứ 2 đến Thứ 6 hằng tuần: từ 7g30 đến 19g00</li>
-				<li>Thứ 7 và Chủ nhật hằng tuần: từ 7g30 đến 17g00</li>
-			</ul>
-		</li>
+	<li>Website quảng bá sản phẩm, kinh doanh online theo yêu cầu của doanh nghiệp</li>
+	<li>Phát triển hệ thống ứng dụng tác nghiệp và quản lý công việc trên thiết bị di động với các nền tảng phổ biến hiện nay như iOS, Android, Windows Phone</li>
+	<li>Phát triển các phần mềm dùng trong giáo dục như: phần mềm mô phỏng phòng thí nghiệm ảo (toán, lý, hóa,…), phần mềm quản lý thư viện, hệ thống quản lý tổng thể trường học,…</li>
+	<li>Phát triển phần mềm doanh nghiệp: phần mềm quản lý nhân sự, quản lý tài sản, quản lý trang thiết bị, quản lý hệ thống phân phối,…</li>
+	<li>Xây dựng hệ thống phần mềm dịch vụ công trực tuyến: một cửa điện tử, quản lý văn bản, quản lý chỉ đạo điều hành...</li>
+	<li>...</li>
 	</ul>
-	<b>Phương thức 2: Chuyển khoản ngân hàng</b>
-	<p>Bạn có thể đến bất kỳ ngân hàng nào ở Việt Nam (hoặc sử dụng Internet Banking) để chuyển học phí theo thông tin như sau:</p>
-	<img src="img/5.PNG">
-	<b>Lưu ý:</b>
-	<p>Bạn phải viết chính xác 100% tên tài khoản và số tài khoản để đảm bảo học phí được chuyển khoản đến đúng nơi.</p>
-	<ul>
-	<li>Trong khi chuyển khoản, trong phần nội dung, bạn vui lòng điền đầy đủ thông tin: Họ tên học viên (có thể khác với họ tên người chuyển khoản) Số điện thoại liên hệ - Tên khóa học (ngắn gọn) – Mã lớp vào phiếu chuyển tiền.</li>
-	<li>Do có rất nhiều giao dịch chuyển khoản, nên bạn nhớ giữ lại thông tin chuyển khoản và gửi email về tuvan@.edu.vn để Bộ phận Ghi danh chúng tôi tiện đối chiếu và xuất biên lai cho bạn.</li>
-	<li>Trung Tâm luôn kiểm tra các giao dịch chuyển khoản mỗi ngày (từ Thứ 2 đến Thứ 6) và sẽ liên hệ với bạn ngay khi nhận được chuyển khoản của bạn (tối đa khoảng 3 ngày).</li>
-	</ul>
-	<i>Thân mến và hẹn gặp bạn tại khóa học !</i>
 	<br/>
 	
-
+	<img class="img-responsive center-block" src="img/anhminhhoa3.PNG">
+	
+	<p><b>Sản phẩm :</b></p>
+	<ul>
+	<li>Phần mềm xử lí trên thiết bị di động</li>
+	</ul>
+	<br/>
+	<img class="img-responsive center-block" src="img/anh4.PNG">
+	<br/>
+	<ul>
+	<li>Hệ thống phần mềm hội nghị trực tuyến</li>
+	</ul>
+	<img class="img-responsive center-block" src="img/anh5.PNG">
+	<br/>
+	<ul>
+	<li>Phát triển website,cổng thông tin</li>
+	</ul>
+	<img class="img-responsive center-block" src="img/anh6.PNG">	
+	<br/>
+	<p>Lấy sự hài lòng của Quý khách hàng làm tiêu chí đánh giá chất lượng sản phẩm và dịch vụ,chúng tôi luôn cố
+	gắng cung cấp cho Quý khách hàng những sản phẩm phần mềm tốt nhất, đáp ứng đầy đủ nhu cầu công việc và mang 
+	lại hiệu quả cao nhất</p>
 </div>
+<br/>
+
+<h5 style="text-align:center;color:black"><b><i>Một số khách hàng tiêu biểu của trung tâm</i></b></h5>
+<br/>
+<div class="container col-sm-50">
+	<table border="1px" cellpadding="50px" cellspacing="0px" width="100%">
+		<tr height="30px">
+			<td width=50px align="center"><b>Stt</b></td>
+			<td width=100px align="center"><b>Khách hàng</b></td>
+			<td width=100px align="center"><b>Sản phẩm cung cấp</b></td>
+		</tr>
+		<tr height="40px">
+			<td align="center">1</td>
+			<td align="center">Trung tâm CNTT&TT TP.Hồ Chí Minh</td>
+			<td align="center">Phần mềm xử lí trên thiết bị di động</td>
+		</tr>
+		<tr height="40px">
+			<td align="center">2</td>
+			<td align="center">Trung tâm Tin học tỉnh Đồng Nai</td>
+			<td align="center">Hệ thống phần mềm hội nghị trực tuyến</td>
+		</tr>
+		<tr height="50px">
+			<td align="center">3</td>
+			<td align="center">Trường Đại học Nguyễn Tất Thành</td>
+			<td align="center">Phát triển website trường phiên bản trên điện thoại di động</td>
+		</tr>
+		<tr height="40px">
+			<td align="center">4</td>
+			<td align="center">Công ty Cà phê Việt Thắng</td>
+			<td align="center">Phần mềm kế toán quản lí tổng hợp</td>
+		</tr>
+		<tr height="40px">
+			<td align="center">5</td>
+			<td align="center">Sở Giáo dục và Đào tạo tỉnh Bến Tre</td>
+			<td align="center"></td>
+		</tr>
+		<tr height="50px">
+			<td align="center">6</td>
+			<td align="center">Sở Giáo dục và Đào tạo tỉnh Kiên Giang</td>
+			<td align="center">Hệ thống phần mềm hội nghị trực tuyến</td>
+		</tr>
+		<tr height="60px">
+			<td align="center">7</td>
+			<td align="center">Ban quản lí Dự án cấp thoát nước TP.Hồ Chí Minh</td>
+			<td align="center">Hệ thống phần mềm thông tin kế toán và quản lý của công ty cấp thoát nước</td>
+		</tr>
+	</table>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+	
 <!--Ðoạn footer-->
 	<div class="footer">
 		<div class="container"

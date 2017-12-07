@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Hướng dẫn thanh toán</title>
+<title>Trung tâm tin học Nhóm 1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<link rel="stylesheet" href="index.css"/>
+<link rel="stylesheet" href="index.css" />
 
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css"> -->
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
@@ -22,8 +22,16 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
+
+
 </head>
 <body>
+	
+	
+	
+	
+	
+	
 <!--phan logo phia tren thanh menu-->
 	<div class="container-fluid" id="thanhlogo"
 		style="background-color: white; color: black; width: 80%; padding: 0px;">
@@ -96,49 +104,40 @@
 			</div>
 		</div>
 	</nav>
-<h3 style="text-align: center;color: #E45D17">Hướng dẫn thanh toán học phí</h3>
-<div class="container">
-	<p>Để thanh toán học phí khóa học tại Trung Tâm Tin Học – ĐH Khoa Học Tự Nhiên, bạn có thể chọn một trong hai phương thức thanh toán sau:</p>
-	<ol>
-		<li>Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</li>
-		<li>Chuyển Khoản ngân hàng</li>
-	</ol>
-	<b>Phương thức 1: Thanh toán trực tiếp tại Phòng ghi danh của Trung Tâm Tin Học</b>
-	<ul>
-		<li>
-			Địa chỉ:
-			<ul>
-				<li>Cơ sở chính: 227 Nguyễn Văn Cừ, Phường 4, Quận 5, TP. HCM</li>
-				<li>Cơ sở 2: 137E Nguyễn Chí Thanh, Phường 9, Quận 5, TP. HCM</li>
-				<li style="list-style-type: none">
-					<div>
-						<img src="img/4.PNG" style="align-content: center" alt="anh minh hoa">
-					</div>
-				</li>
-			</ul>
-		</li>
-		<li>Thời gian làm việc:
-			<ul>
-				<li>Thứ 2 đến Thứ 6 hằng tuần: từ 7g30 đến 19g00</li>
-				<li>Thứ 7 và Chủ nhật hằng tuần: từ 7g30 đến 17g00</li>
-			</ul>
-		</li>
-	</ul>
-	<b>Phương thức 2: Chuyển khoản ngân hàng</b>
-	<p>Bạn có thể đến bất kỳ ngân hàng nào ở Việt Nam (hoặc sử dụng Internet Banking) để chuyển học phí theo thông tin như sau:</p>
-	<img src="img/5.PNG">
-	<b>Lưu ý:</b>
-	<p>Bạn phải viết chính xác 100% tên tài khoản và số tài khoản để đảm bảo học phí được chuyển khoản đến đúng nơi.</p>
-	<ul>
-	<li>Trong khi chuyển khoản, trong phần nội dung, bạn vui lòng điền đầy đủ thông tin: Họ tên học viên (có thể khác với họ tên người chuyển khoản) Số điện thoại liên hệ - Tên khóa học (ngắn gọn) – Mã lớp vào phiếu chuyển tiền.</li>
-	<li>Do có rất nhiều giao dịch chuyển khoản, nên bạn nhớ giữ lại thông tin chuyển khoản và gửi email về tuvan@.edu.vn để Bộ phận Ghi danh chúng tôi tiện đối chiếu và xuất biên lai cho bạn.</li>
-	<li>Trung Tâm luôn kiểm tra các giao dịch chuyển khoản mỗi ngày (từ Thứ 2 đến Thứ 6) và sẽ liên hệ với bạn ngay khi nhận được chuyển khoản của bạn (tối đa khoảng 3 ngày).</li>
-	</ul>
-	<i>Thân mến và hẹn gặp bạn tại khóa học !</i>
-	<br/>
-	
 
+<h3 style="text-align: center;color: #FF8600 ">Đào tạo theo yêu cầu Cơ quan - Doanh nghiệp</h3>
+<div class="container col-sm-50">
+	<p>Công nghệ thông tin hiện đang đóng vai trò quan trọng trong quá trình quản trị, điều hành tại mỗi cơ quan, doanh nghiệp. Những năm gần đây, Chính phủ đã và đang đẩy mạnh chương trình quốc gia về ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước nhằm nâng cao hiệu quả xử lí công việc, giảm chi phí hoạt động, tạo nền tảng phát triển Chính phủ điện tử và đảm bảo an toàn an ninh thông tin.</p>
+	<p>Chìa khóa then chốt để thực hiện thành công chương trình chính là đào tạo nguồn nhân lực công nghệ thông tin. Nhiều chính sách, chương trình hành động cụ thể được ban hành từ Trung ương tới địa phương đã đòi hỏi cán bộ, nhân viên trong các cơ quan nhà nước, doanh nghiệp cần thường xuyên được đào tạo, bồi dưỡng nâng cao năng lực ứng dụng CNTT theo xu thế phát triển. </p>
+	<p>Đề án “Đưa Việt Nam sớm trở thành nước mạnh về CNTT và Truyền thông” của Chính phủ đã nhấn mạnh nội dung “Tạo chuyển biến mạnh mẽ về chất lượng nguồn nhân lực, đổi mới nội dung, phương thức dạy và học, thúc đẩy xã hội học tập, đáp ứng yêu cầu phát triển đất nước”. Để thực hiện mục tiêu nâng cao nguồn nhân lực CNTT, ta cần sự phối hợp chặt chẽ từ các đơn vị quản lý nhà nước, các cơ sở đào tạo và các doanh nghiệp.</p>
+	<p>Trong nhiều năm qua, Trung Tâm Tin Học đã tư vấn và triển khai nhiều khóa đào tạo, tập huấn CNTT với nhiều nội dung đa dạng từ các kiến thức căn bản đến nâng cao. Các chương trình đào tạo nổi bật của Trung Tâm Tin Học:</p>
+	<p><b>Chương trình đào tạo của Trung tâm nổi bật với các ưu điểm</b></p>
+	<li>Đội ngũ giảng viên tâm huyết, có kiến thức chuyên môn chuyên sâu, hiện là giảng viên tại trường ... và các chuyên viên CNTT nhiều năm làm việc tại các công ty lớn</li>
+	<li>Với bề dày kinh nghiệm triển khai dự án CNTT tại các cơ quan , doanh nghiệp ở các địa phương: TP.Hồ Chí Minh,Cà Mau,Đồng Nai,... và đội ngũ chuyên môn có nhiều năm nghiên cứu công nghệ,biên soạn tài liệu,Trung tâm cung cấp những chương trình đào tạo sát thực tế và có thể cận dụng ngay vào công việc hiện tại. </li>
+	<li>Các chương trình đào tạo được xây dựng linh hoạt theo nhu cầu khác nhau của từng doanh nghiệp, sở ban ngành</li>
+	<li>Trung tâm sẵn sàng vận chuyển các thiết bị mạng chuyên dụng về các địa phương để giảng dạy.</li>
+	<li>Hệ thống cơ sở vật chất và thiết bị thực hành hiện đại như hệ thống Router,Switch,mạng cáp quang tốc độ cao,máy tính cấu hình mạnh,...</li>
+	<br/>
+	<img class="img-responsive center-block" alt="" src="img/anh7.PNG">
+	<br/>
+	<img class="img-responsive center-block" alt="" src="img/anh8.PNG">
+	<p style="text-align:center"><small><i>Hội nghị<b>"Hợp tác đào tạo và chuyển giao công nghệ 2014"</b>với các sở thông tin và truyền thông</i></small></p>
+	<p>Với những thế mạnh trên,Trung tâm đã trở thành lựa chọn hàng đầu của các sở ,ban ngành và các doanh nghiệp,hợp tác triển khai nhiều chương trình CNTT cho hơn 30 đơn vị khắp cả nước như :</p>
+	<li>Sở Thông tin & truyền thông tại các tỉnh </li>
+	<li>Các Trung tâm CNTT ở khắp cả nước</li>
+	<li>Sở Giáo dục và Đào tạo các tỉnh lân cận</li>
+	<li>.....</li>
+<br>	
+	<img class="img-responsive center-block" alt="" src="img/minh hoa 1.PNG">
+<br>
+<br>
+	<img class="img-responsive center-block" alt="" src="img/minh hoa 2.PNG">
+<br>
+	<p>Trong suốt quá trình hoạt động ,Trung tâm Tin học luôn xác định một trong những nhiệm vụ quan trọng của mình đó là cung cấp cho ngành công nghệ thông tin nước nhà nguồn nhân lực có chất lượng cao
+	với chuyên môn vững vàng</p>
+	<p>Với phương châm luôn phát triển và đổi mới,chúng tôi sẽ luôn đồng hành cùng các đơn vị Sở Ban Ngành và Doanh nghiệp trong công tác ứng dụng CNTT,nắm bắt những công nghệ mới,góp phần nâng cao hiệu quả hoạt động của đơn vị</p>
 </div>
+
 <!--Ðoạn footer-->
 	<div class="footer">
 		<div class="container"
